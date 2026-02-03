@@ -1,0 +1,6 @@
+nohands/
+__pycache__/
+.env
+.git
+.ipynb_checkpoints
+logs/
