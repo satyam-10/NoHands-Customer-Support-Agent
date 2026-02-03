@@ -32,5 +32,6 @@ workflow.add_edge("tools", "assistant")
 
 music_agent = workflow.compile(
     checkpointer=checkpointer,
+    name = "music_agent",
     store=long_term_store
 )
